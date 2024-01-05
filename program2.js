@@ -3,11 +3,6 @@
  * @return {number}
  */
 var romanToInt = function(s) {
-    /**
- * @param {string} s
- * @return {number}
- */
-var romanToInt = function(s) {
     const romanValues = {
         'I': 1,
         'V': 5,
@@ -37,7 +32,3 @@ var romanToInt = function(s) {
 
 module.exports = { romanToInt };
 
-};
-
-
-module.exports={romanToInt}
